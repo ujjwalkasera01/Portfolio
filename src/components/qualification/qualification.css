@@ -1,0 +1,104 @@
+.educa--container{
+    max-width: 780px;
+
+}
+.educa--tabs{
+    box-shadow: 183px -32px 186px -13px rgba(47,103,71,1);
+
+    display: flex;
+    justify-content: center;
+    margin-bottom: var(--mb-2);
+}
+.educa--button{
+    font-size: var(--h3-font-size);
+    font-weight: var(--font-medium);
+    color: #808080;
+    margin: 0 var(--mb-1);
+    cursor: pointer;
+}
+.educa--active:hover{
+    border-bottom: 1px solid #A9A9A9;
+}
+.educa--icon{
+    font-size: 1.8rem;
+    margin-right: var(--mb-0-25);
+}
+.educa--active{
+    /* border-bottom: 1px solid #A9A9A9; */
+    color: #A9A9A9;
+}
+.educa--sections{
+    /* background: transparent; */
+    display: grid;
+    grid-template-columns: 0.5fr;
+    justify-content: center;
+
+}
+.educa--content{
+    display: none;
+}
+.educa--content-active{
+    display: block;
+}
+.educa--data{
+    background: transparent;
+    display: grid;
+    grid-template-columns: 1fr max-content 1fr;
+    column-gap: 1.5rem;
+}
+.educa--title{
+    color: #A9A9A9;
+    font-size: var(--normal-font-size);
+    font-weight: var(--font-medium);
+}
+.educa--subtitle{
+    color: #808080;
+    display: inline-block;
+    font-size: var(--small-font-size);
+    /* margin-bottom: var(--mb-1);    */
+    margin-bottom: 5px;
+}
+.educa--calendar{
+    color: #808080;
+    font-size: var(--small-font-size);
+}
+.educa--rounder{
+    display: inline-block;
+    width: 13px;
+    height: 13px;
+    background-color: var(--text-color);
+    border-radius: 50%;
+}
+.educa--line{
+    display: block;
+    width: 1px;
+    height: 100%;
+    background-color: var(--text-color);
+    transform: translate(6px, -7px);
+}
+
+@media screen and (max-width: 992px) {
+    .educa--container{
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+@media screen and (max-width: 768px) {
+    .educa--container{
+        margin-left: var(--mb-1-5);
+        margin-right: var(--mb-1-5);
+    }
+}
+@media screen and (max-width: 576px) {
+    .educa--sections{
+        grid-template-columns: initial;
+    }
+    .educa--button{
+        margin: 0 var(--mb-0-75);
+    }
+}
+@media screen and (max-width: 350px) {
+    .educa--data{
+        gap: 0.5rem;
+    }
+}
