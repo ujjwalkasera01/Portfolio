@@ -1,9 +1,9 @@
 import React from "react";
 import "./project.css";
-import admin from "../../assets/admin.png";
-import image from "../../assets/image.png";
-import job from "../../assets/job.png";
-import customizer from "../../assets/customizer.png"
+import krishak from "../../assets/KrishakImage.jpg";
+import healthhelp from "../../assets/HealthelpImage.jpg";
+import happyplace from "../../assets/HappyPlaceImage.png";
+import fitgo from "../../assets/FitGoImage.png";
 
 export const Project = () => {
   return (
@@ -15,7 +15,7 @@ export const Project = () => {
 
           <article className="card--item">
             <div className="card--item-image">
-              <img src={admin} alt="" srcset="" />
+              <img src={krishak} alt="" srcset="" />
             </div>
             <h3>Krishak Toolkit</h3>
             <div className="btnn">
@@ -29,7 +29,7 @@ export const Project = () => {
 
           <article className="card--item">
             <div className="card--item-image">
-              <img src={image} alt="" srcset="" />
+              <img src={happyplace} alt="" srcset="" />
             </div>
             <h3>Happy Places</h3>
             <div className="btnn">
@@ -41,7 +41,7 @@ export const Project = () => {
 
           <article className="card--item">
             <div className="card--item-image">
-              <img src={job} alt="" srcset="" />
+              <img src={healthhelp} alt="" srcset="" />
             </div>
             <h3>Health Help</h3>
             <div className="btnn">
@@ -55,7 +55,7 @@ export const Project = () => {
 
           <article className="card--item">
             <div className="card--item-image">
-              <img src={customizer} alt="" srcset="" />
+              <img src={fitgo} alt="" srcset="" />
             </div>
             <h3>Fit Go</h3>
             <div className="btnn">
